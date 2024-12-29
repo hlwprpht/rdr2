@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+*{
+    margin:0;
+}
+body{
+    background-color: black;
+    color:white;
+    font-family: "Nunito Sans", sans-serif;
+}
+header {
+    position:sticky;
+    top: 0px;
+    height: fit-content;
+    background-color: #c11515;
+    box-sizing: border-box;
+}
+.sticky__nav {
+    display:flex;
+    justify-content: space-around;
+    font-weight:600;
+    font-size:18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: opacity 0.3s ease-in-out; 
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+footer {
+    margin-top:30px;
+    height:220px;
+    text-align: center;
+    background-image: url("background.png")
+}
+.footer__title {
+    padding-top:60px;
+}
+.footer__text {
+    margin-top:20px;
+}
+.footer__button {
+    display:inline-block;
+    margin-top:20px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left:40px;
+    padding-right:40px;
+    font-size: 20px;
+    color:#000;
+    border:none;
+    cursor:pointer;
+    position: relative;
+    transition: all 3s;
+    z-index: 1;
+}
+.block {
+    width:100%;
+    height: fit-content;
+    padding:20px;
+    line-height: 24px;
+    box-sizing: border-box;
+    transition: opacity 0.7s ease-in-out
+}
+.main__content {
+    overflow-x: hidden;
+}
+.main__slogan {
+    width:40%;
+    box-sizing: border-box;
+}
+.main__image-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__info {
+    float:right;
+    text-align: center;
+    width:50%;
+}
+.main__about-game {
+    clear:right;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.main__image {
+    height:500px;
+}
+.main__about-image {
+    width:100%;
+}
+.about__hd {
+    margin-right: 3%;
+    transition: opacity 0.5s ease-in-out; 
+}
+.about__dlc {
+    margin-top: 2%;
+    transition: opacity 1.5s ease-in-out; 
+}
+.about {
+    width:37%;
+    text-align: center;
+}
+.about__weapon {
+    text-align: left;
+    margin: 20px auto;
+    width:45%;
+}
+.weapon span {
+    font-weight: bold;
+}
+.weapon__text {
+    display:flex;
+    align-items: center;
+    cursor:pointer;
+    transition: opacity 0.4s ease-in-out; 
+}
+.weapon__list {
+    margin-top:10px;
+    position:absolute;
+    transition: opacity 0.4s ease-in-out; 
+}
